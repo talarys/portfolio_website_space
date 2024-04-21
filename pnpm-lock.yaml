@@ -42,6 +42,9 @@ importers:
       framer-motion:
         specifier: ^11.1.5
         version: 11.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      maath:
+        specifier: ^0.10.7
+        version: 0.10.7(@types/three@0.163.0)(three@0.163.0)
       postcss:
         specifier: ^8
         version: 8.4.38
