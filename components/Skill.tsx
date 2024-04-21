@@ -21,7 +21,7 @@ const Skill = ({ name, index }: Props) => {
 			opacity: 1,
 		},
 	};
-	const animationDelay = 0.3;
+	const animationDelay = 0.7;
 
 	return (
 		<div>
@@ -31,7 +31,7 @@ const Skill = ({ name, index }: Props) => {
 				animate={inView ? "visible" : "hidden"}
 				variants={imageVariants}
 				custom={index}
-				transition={{ delay: animationDelay * index }}
+				transition={{ delay: animationDelay * Math.random() }}
 			>
 				<Image
 					src={`svg/skills/${name}`}
