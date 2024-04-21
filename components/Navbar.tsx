@@ -1,7 +1,28 @@
-import { Socials } from "@/utils/constants";
 import Image from "next/image";
 import React from "react";
 
+const Socials = [
+	{
+		name: "Discord",
+		src: "svg/socials/discord_icon.svg",
+		link: "https://discordapp.com/users/213340078301249536",
+	},
+	{
+		name: "Linkedin",
+		src: "svg/socials/linkedin_icon.svg",
+		link: "https://www.linkedin.com/in/talarys/",
+	},
+	{
+		name: "Whatsapp",
+		src: "svg/socials/whatsapp_icon.svg",
+		link: "https://wa.me/34633199788",
+	},
+	{
+		name: "Github",
+		src: "svg/socials/github_icon.svg",
+		link: "https://github.com/talarys/",
+	},
+];
 const Navbar = () => {
 	return (
 		<div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
