@@ -1,18 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="256px" height="384px" viewBox="0 0 256 384" version="1.1" xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
-    <g>
-        <path
-            d="M64,384 C99.328,384 128,355.328 128,320 L128,256 L64,256 C28.672,256 0,284.672 0,320 C0,355.328 28.672,384 64,384 Z"
-            fill="#0ACF83"></path>
-        <path d="M0,192 C0,156.672 28.672,128 64,128 L128,128 L128,256 L64,256 C28.672,256 0,227.328 0,192 Z"
-            fill="#A259FF"></path>
-        <path d="M0,64 C0,28.672 28.672,0 64,0 L128,0 L128,128 L64,128 C28.672,128 0,99.328 0,64 Z" fill="#F24E1E">
-        </path>
-        <path d="M128,0 L192,0 C227.328,0 256,28.672 256,64 C256,99.328 227.328,128 192,128 L128,128 L128,0 Z"
-            fill="#FF7262"></path>
-        <path
-            d="M256,192 C256,227.328 227.328,256 192,256 C156.672,256 128,227.328 128,192 C128,156.672 156.672,128 192,128 C227.328,128 256,156.672 256,192 Z"
-            fill="#1ABCFE"></path>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 43 64">
+    <path fill="#0acf83" d="M11 64c6 0 10-5 10-11V43H11a11 11 0 1 0 0 21z" />
+    <path fill="#a259ff" d="M0 32c0-6 5-11 11-11h10v22H11C5 43 0 38 0 32z" />
+    <path fill="#f24e1e" d="M0 11C0 5 5 0 11 0h10v21H11C5 21 0 17 0 11z" />
+    <path fill="#ff7262" d="M21 0h11c6 0 11 5 11 11s-5 10-11 10H21V0z" />
+    <path fill="#1abcfe" d="M43 32a11 11 0 1 1-22 0 11 11 0 0 1 22 0z" />
 </svg>
