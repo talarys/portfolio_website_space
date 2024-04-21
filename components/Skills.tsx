@@ -8,8 +8,6 @@ const Skills = async () => {
 	const skillsList = await fs.readdir(
 		path.join(process.cwd(), "/public/svg/skills"),
 	);
-	console.log(skillsList);
-
 	return (
 		<section
 			id="skills"
